@@ -1,0 +1,11 @@
+
+    <div class="d-flex flex-column votebox">
+      <div class="p-2">
+        <mat-icon class='material-icons-outlined' (click)="upVote()" [style.color]="upvoteColor">thumb_up</mat-icon>
+      </div>
+      <div class="p-2 votecount">{{post.voteCount}}</div>
+      <div class="p-2">
+        <mat-icon class='material-icons-outlined' (click)="downVote()" [style.color]="downvoteColor">thumb_down</mat-icon>
+
+      </div>
+    </div>
